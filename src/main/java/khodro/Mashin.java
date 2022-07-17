@@ -2,7 +2,9 @@ package khodro;
 
 public class Mashin extends Khodro implements Gearbox , SandoghDar{
 
-   public Mashin(){
+    public static int tedatFrosh;
+
+    public Mashin(){
         System.out.println("yek mashin bedom dade shakhte shod");
     }
 
